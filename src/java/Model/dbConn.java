@@ -14,7 +14,7 @@ public class dbConn {
         try
         {
             Class.forName("com.mysql.jdbc.Driver");
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Collage?characterEncoding=latin1&useConfigs=maxPerformance","root","");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/shopmanagementsystem?characterEncoding=latin1&useConfigs=maxPerformance","root","");
         }
         catch(SQLException se)
         {
